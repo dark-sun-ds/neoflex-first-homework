@@ -1,0 +1,15 @@
+@mixin text {
+  color: #060209;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 130%;
+  letter-spacing: 10%;
+  text-align: left;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
